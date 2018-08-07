@@ -19,7 +19,9 @@ host = gets.chomp
 
 puts "Dear #{name}"
 
-puts "You are cordially invited to a #{party_name} on #{date} at #{time}." 
+puts "You are cordially invited to a #{party_name} on #{date} at #{time}. Please RSVP no later than October 30th" 
 
-puts 
+puts "From"
+
+puts "#{host}"
 
