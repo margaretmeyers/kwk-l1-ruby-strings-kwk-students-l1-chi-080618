@@ -2,7 +2,7 @@
 
 
 
-puts "What is your name?"
+puts "Hi you have been invited to a party! What is your name?"
 name = gets.chomp
 
 puts "What is the party name?"
