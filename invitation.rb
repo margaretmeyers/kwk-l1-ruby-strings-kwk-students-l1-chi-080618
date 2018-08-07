@@ -1,26 +1,26 @@
 # Code your prompts here!
 
-guest_name = gets.chomp
 
-puts "Hi, you've been invited to a party! What is your name?"
 
-puts "What is the name of the party?"
+puts "What is your name?"
+name = gets.chomp
+
+puts "What is the party name?"
 party_name = gets.chomp
 
-puts "When is the party?"
+puts "What is the date?"
 date = gets.chomp
 
-puts "What time is the party at?"
+puts "What is the time?"
 time = gets.chomp
 
-puts "Who is hosting the party?"
-host_name = gets.chomp
+puts "Who is the party host?"
+host = gets.chomp
 
-puts "Dear #{guest_name},
- 
-puts "You are cordially invited to #{party_name} on #{date} at #{time}. Please RSVP no later than October 30."
+puts "Dear #{name},
+You are cordially invited to #{party_name} on #{date} at #{time}. Please RSVP no later than October 30."
 
 puts "Sincerely,"
 
-puts "#{host_name}"
+puts "#{host}"
 
