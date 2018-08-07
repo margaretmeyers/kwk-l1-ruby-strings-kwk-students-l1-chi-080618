@@ -2,7 +2,7 @@
 
 
 
-puts " Hi you have been invited to a party! What is your name?"
+puts "What is your name?"
 name = gets.chomp
 
 puts "What is the party name?"
@@ -17,10 +17,7 @@ time = gets.chomp
 puts "Who is the party host?"
 host = gets.chomp
 
-puts "Dear #{name},
-"You are cordially invited to #{party_name} on #{date} at #{time}. Please RSVP no later than October 30."
+puts "Dear #{name}"
 
-puts "Sincerely,"
-
-puts "#{host}"
+puts "You are cordially invited to a "
 
